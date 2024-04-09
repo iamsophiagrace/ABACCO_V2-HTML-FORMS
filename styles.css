@@ -1,0 +1,30 @@
+*,
+*::before
+*::after
+{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body 
+{
+ background-image: url("p.png"); 
+ background-size: cover ;
+ background-position-y: -100px;
+ background-repeat: no-repeat;
+}
+h1,
+em,
+h2,
+em
+{
+ color: white;
+ font-size: x-large;
+ text-align: left;
+}
+form
+{
+ color: white;
+ font-size: x-large;
+ text-align: center; 
+}
